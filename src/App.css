@@ -1,0 +1,125 @@
+
+*{
+  text-decoration: none;
+  list-style: none;
+  color: #845EC2;
+}
+
+body{
+  background-image: url(https://fondosmil.com/fondo/53645.jpg);
+  background-size:cover ;
+}
+
+header{
+ background-image: url(https://elrincondenetflix.com/wp-content/uploads/2019/07/Cuando-llegar%C3%A1-la-pr%C3%B3xima-temporada-de-Rick-y-Morty.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ color:#845EC2;
+height: 300px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.title{
+  box-shadow: 0 3px 20px -12px #030303;
+  background-color:  #4B4453;
+  border-radius: 4px;
+      margin: 0 auto;
+        padding: 1rem 0;
+    text-align: center;
+
+}
+
+.subtitle{
+  display: flex;
+    justify-content: space-around;
+    padding: 0 1.2rem;
+}
+
+
+
+.App{
+
+text-align: center;
+
+
+
+}
+
+.Rick-list{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.Rick-list li{
+
+  padding: 10px;
+  width: 50%;
+}
+
+.Rick-list li .card{
+border: 1px solid black;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+.card li{
+  box-shadow: 15px 5px 25px -7px #070707;
+  border-radius: 4px;
+  background-color: #4B4453;
+  overflow:auto; 
+  width: auto;
+  display:flex;
+ gap:20px;
+}
+
+.status{
+  align-items: center;
+  background-color: #e3eee7;
+  background-color: var(--white);
+  border-radius: 0 2px 2px 0;
+  box-shadow: 15px 5px 25px -7px #070707;
+  display: flex;
+  left: 0;
+  padding: 0.1rem 1rem 0.1rem 0.7rem;
+  position: absolute;
+  top: 15px;
+
+
+}
+
+.circle{
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin-right: 0.5rem;
+  width: 10px;
+  
+
+}
+
+.green{
+  
+  background: #458a55;
+}
+
+.card div{
+padding: 10px;
+text-align: center;
+
+}
+
+.subcard{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Rick-list li .card img{
+width: 100%;
+  
+}
